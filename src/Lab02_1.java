@@ -19,9 +19,9 @@ public class Lab02_1 {
 
         if (BMI < 18.5) {
             result = "You are underweight";
-        } else if (BMI >= 18.5 && BMI <= 24.9) {
+        } else if (BMI <= 24.9) {
             result = "You are normal weight";
-        } else if (BMI >= 25 && BMI <= 29.9) {
+        } else if (BMI <= 29.9) {
             result = "You are overweight";
         } else {
             result = "You are obesity!!!";
